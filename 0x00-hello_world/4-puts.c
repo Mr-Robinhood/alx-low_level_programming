@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main -A program is to write a paragraph using puts
- * return = (0) success
+ * main -A program is to write a paragraph using puts function
+ * Return: 0 (success)
  */
 int main(void)
 {
