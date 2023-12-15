@@ -2,8 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - A this program to define if the
-number is positive or negative or Zero
+ * main - A Entry point
  * Return: 0 (Success)
  */
 int main(void)
