@@ -1,4 +1,4 @@
-#include <stio.h>
+#include <stdio.h>
 /**
  * main - A program is to write a paragraph using printf function
  * return: 0 (success)
