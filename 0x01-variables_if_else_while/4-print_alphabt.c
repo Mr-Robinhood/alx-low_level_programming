@@ -18,6 +18,6 @@ putchar(lowercase);
 lowercase += 1;
 }
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
