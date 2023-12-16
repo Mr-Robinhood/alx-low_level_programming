@@ -9,9 +9,9 @@ int main(void)
 	char m;
 
 	c = 'a';
-	m ='A';
+	m = 'A';
 	while
-           (c <= 'z') {
+		(c <= 'z') {
 			putchar(c);
 			c++;
 		}
@@ -23,4 +23,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-                
