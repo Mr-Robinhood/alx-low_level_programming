@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-int lowercase = 'a';
+char lowercase = 'a';
 while (lowercase <= 'z')
 {
 if (lowercase == 'e' || lowercase == 'q')
