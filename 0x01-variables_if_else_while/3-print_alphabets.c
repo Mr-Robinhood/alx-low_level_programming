@@ -5,19 +5,22 @@
  */
 int main(void)
 {
-        char c;
+	char c;
 	char m;
 
-        c = 'a';
+	c = 'a';
 	m ='A';
-        while
-           (c <= 'z' && m <= 'Z') {
-                        putchar(c);
+	while
+           (c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(c <= 'z') {
 			putchar(m);
-                        c++;
 			m++;
-                }
-        putchar('\n');
-        return (0);
+		}
+	putchar('\n');
+	return (0);
 }
                 
