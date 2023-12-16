@@ -6,9 +6,9 @@
 int main(void)
 {
         char c;
+	char m
 
         c = 'a';
-
 	m ='A';
         while
            (c <= 'z' && m <= 'Z') {
