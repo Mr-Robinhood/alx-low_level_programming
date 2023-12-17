@@ -10,7 +10,7 @@ int main(void)
 	digit1 = 48;
 	while(digit1 < 58)
 	{
-		digit2 = digit1 + 1
+		digit2 = digit1 + 1;
 	while( digit2 <58)
 	{	
 		
@@ -22,9 +22,9 @@ int main(void)
 			putchar(44);
 			putchar(32);
 		}
-		digit2++
+		digit2++;
 		}
-		digit1++
+		digit1++;
 	}
 
 
