@@ -14,8 +14,8 @@ int main(void)
 	while( digit2 <58)
 	{	
 		
-		puchar(digit1);
-		puchar(digit1);
+		putchar(digit1);
+		putchar(digit1);
 		
 		if (digit1 < 57 || digit2 < 57)
 		{
