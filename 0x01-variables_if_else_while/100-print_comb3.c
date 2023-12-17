@@ -7,25 +7,28 @@
 int main(void)
 {
 	int digit1, digit2;
-
-	for (digit1 = 0; digit1 < 10; ++digit1)
+	digit1 = 48;
+	while(digit1 < 58)
 	{
-		for (digit2 = digit1 + 1; digit2 < 10; ++digit2)
+		digit2 = digit + 1
+	while( digit2 <58)
+	{	
+		
+		puchar(digit1);
+		puchar(digit1);
+		
+		if (digit1 < 57 || digit2 < 57)
 		{
-			if (!(digit1 == 0 && digit2 == 1))
-			{
-			putchar(digit1 + '0');
-			putchar(digit2 + '0');
-			if (digit1 != 8 || digit2 != 9)
-			{
-			putchar(',');
-			putchar(' ');
-			}
+			putchar(44);
+			putchar(32);
 		}
-
+		digit2++
+		}
+		digit1++
 	}
 
-}
+
+
 
 	putchar('\n');
 
