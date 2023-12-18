@@ -7,30 +7,31 @@
 int main(void)
 {
 	int digit1, digit2;
-	digit1 = 48;
-	while(digit1 < 58)
+	digit1 = 0;
+	digit2 = 0;
+
+	while(digit2 <= 9)
 	{
-		digit2 = digit1 + 1;
-	while( digit2 <58)
-	{	
-		
-		putchar(digit1);
-		putchar(digit1);
-		
-		if (digit1 < 56 || digit2 < 57)
+		if (!(digit1 > digit2) || digit1 == digit2)
 		{
-			putchar(44);
-			putchar(32);
+		putchar(digit1);
+		putchar(digit1);
+		
+		if (digit1 == '8' && digit2 == '9')
+		{
+			putchar('\n');
+		
 		}
-		digit2++;
+		else{
+			putchar(',');
+			putchar(' ');
 		}
-		digit1++;
+		
 	}
-
-
-
-
-	putchar('\n');
+	digit2++;
+	}
+	digit2 = '0';
+	digit1 = '0';
 
 	return (0);
 }
