@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _abs- function that computes the abslute value 
- * 		of integer
- * @c: take the integer type input for function
+ * _abs- function that computes the abslute value
+ *		of integer
+ * @n: take the integer type input for function
  * Return: Always 0 (Success)
  */
 int _abs(int n)
