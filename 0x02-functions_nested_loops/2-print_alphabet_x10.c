@@ -2,7 +2,7 @@
 /**
  * print_alphabet_x10.c - function that will print the alpabet 10
  */
-void 2-print_alphabet_x10.c(void)
+void print_alphabet_x10(void);
 {
         int line, ch;
 
