@@ -4,7 +4,7 @@
  *		0 if n is zero and - if n less
  *		than 0
  * @n: take the integer type input for function
- * Return: return 1 if +, 0 if 0 and - if - 
+ * Return: return 1 if +, 0 if 0 and - if -
  */
 int print_sign(int n)
 {
@@ -24,4 +24,4 @@ int print_sign(int n)
 		return (-1);
 	}
 
-}             
+}
