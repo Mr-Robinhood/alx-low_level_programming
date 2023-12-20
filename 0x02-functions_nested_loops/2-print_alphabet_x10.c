@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10. - function that will print the alpabet 10
+ * print_alphabet_x10 - function that will print the alpabet 10 times.
  */
 void print_alphabet_x10(void)
 {
@@ -8,7 +8,7 @@ void print_alphabet_x10(void)
 
 	for (line = 0; line <= 9; line++)
 	{
-		for (ch = 'a'; ch <='z'; ch++)
+		for (ch = 'a'; ch <= 'z'; ch++)
 			_putchar(ch);
 		_putchar('\n');
 	}
