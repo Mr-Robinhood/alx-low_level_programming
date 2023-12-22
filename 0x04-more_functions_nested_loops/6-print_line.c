@@ -5,9 +5,15 @@
 */
 void print_line(int n)
 {
-while (n-- > 0)
-{
-_putchar('_');
-}
-_putchar('\n');
+	int lnc;
+
+	if (n <= 0)
+
+	_putchar('\n');
+	else
+	{
+		for (lnc = 1; lnc <= n : lnc++)
+			_putchar('_')
+		_putchar('\n');
+	}
 }
