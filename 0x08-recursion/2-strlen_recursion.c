@@ -1,22 +1,18 @@
 #include "main.h"
 /**
-*_strchr - Returns a pointer to the first occurrence
-*of the character c in the string s, or NULL if the
-*character is not found
-*
-*@s:string targeted
-*@c:character targeted
-*
-*Return: returns pointer to first occcurence of c
+* _strlen_recursion - gives length of a string
+* @s: string to be measured
+*Return: length of the string
 */
-char *_strchr(char *s, char c)
-{
-	int i;
 
-	for (i = 0; (s[i] != c) && (s[i] != '\0'); i++)
-		;
-	if (s[i] == c)
-		return (s + i);
-	else
-		return (NULL);
+int _strlen_recursion(char *s)
+{
+	int len = 0;
+
+	if (*s != '\0')
+	{
+		len++;
+		len += _strlen_recursion(s + 1);
+	}
+	return (len);
 }
