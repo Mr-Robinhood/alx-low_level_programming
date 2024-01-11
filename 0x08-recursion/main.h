@@ -14,5 +14,7 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int _sqrt(int n, int x);
 int is_prime(int n, int start);
+int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
 
 #endif /*MAIN_H*/
