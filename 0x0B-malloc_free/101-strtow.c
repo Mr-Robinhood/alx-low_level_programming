@@ -17,7 +17,7 @@ return (NULL);
 split = (char **) malloc(sizeof(char *) * (words + 1));
 if (split != NULL)
 {
-for (i = 0; i <= len(str) && words; i++)
+for (i = 0; i <= mblen(str) && words; i++)
 {
 if ((str[i] != ' ') && (str[i] != '\0'))
 size++;
