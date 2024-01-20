@@ -1,3 +1,4 @@
+#include "main.h"
 
 /**
 * _calloc - allocate memory using malloc and initialize it to zero
