@@ -1,6 +1,6 @@
 #ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
-
+typedef int make_iso_compilers_happy;
 #include <stdarg.h>
 #include <stdio.h>
 
