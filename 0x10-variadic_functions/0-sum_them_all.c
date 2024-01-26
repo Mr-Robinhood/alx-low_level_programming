@@ -12,22 +12,14 @@
 int sum_them_all(const unsigned int n, ...)
 {
 
-va_list li;
-int sum = 0;
-unsigned int i;
+	int s = 0, i = n;
+	va_list ap;
 
-va_start(li, n);
-
-if (n != 0)
-{
-for (i = 0; i < n; i++)
-sum += va_arg(li, int);
-
-va_end(li);
-return (sum);
-}
-else
-{
-return (0);
-}
+	if (!n)
+		return (0);
+	va_start(ap, n);
+	while (i--)
+		s += va_arg(ap, int);
+	va_end(ap);
+	return (s);
 }
